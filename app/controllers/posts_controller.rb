@@ -10,6 +10,6 @@ class PostsController < ApplicationController
       @post["title"] = params["post"]["title"]
       @post["description"] = params["post"]["description"]
       @post.save  
-      redirect_to "/places"
+      redirect_to "/places/"
     end
 end
